@@ -1,0 +1,249 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#nav-area {
+  background-color: black;
+}
+
+#nav-area img {
+  width: 200px;
+  height: 80px;
+}
+
+#nav-area .container {
+  background-color: black;
+}
+
+#nav-area .my-navbar {
+  width: 415px;
+  position: absolute;
+  left: 465px;
+  top: 12px;
+}
+
+#nav-area .my-navbar a {
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+#nav-area .my-navbar a:hover {
+  background-color: grey;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#intro {
+  height: 400px;
+  background-color: #f1ecec;
+}
+
+#intro .about {
+  padding-top: 40px;
+}
+
+#intro .learn-more {
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#intro .learn-more:hover {
+  background-color: #dada1e;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#intro .learn-more a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  left: 50px;
+  top: 300px;
+}
+
+#intro .intro-img img {
+  width: 650px;
+  height: 350px;
+  margin-top: 23px;
+  border-radius: 10px;
+}
+
+#menu h1 {
+  padding-top: 50px;
+}
+
+#menu .menues img {
+  width: 360px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+#menu .learn-more {
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#menu .learn-more:hover {
+  background-color: #dada1e;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#menu .learn-more a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  left: 50px;
+}
+
+#contact {
+  width: 100%;
+  height: 550px;
+  background-color: black;
+  margin-top: 100px;
+}
+
+#contact .latest-posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+}
+
+#contact .latest-posts .text-2 {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+#contact .latest-posts .text-2 h5 {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#contact .latest-posts .text-2 h5:hover {
+  color: orange;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#contact .latest-posts .text-2 h5,
+#contact .latest-posts .text-2 p {
+  color: white;
+}
+
+#contact h3 {
+  padding-top: 100px;
+  color: white;
+}
+
+#contact .lp-1 {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#contact .lp-1 h4,
+#contact .lp-1 h5 {
+  text-align: center;
+}
+
+#contact .lp-1 .text-1 {
+  padding-top: 10px;
+}
+
+#contact h3,
+#contact p {
+  color: white;
+}
+
+#contact .facebook,
+#contact .twitter,
+#contact .rss,
+#contact .google {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+#contact i {
+  font-size: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#contact h6 {
+  color: white;
+  padding-top: 13px;
+  padding-left: 20px;
+}
+
+#contact .facebook i {
+  color: blue;
+}
+
+#contact .facebook i:hover {
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#contact .twitter i {
+  color: #2d95da;
+}
+
+#contact .twitter i:hover {
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#contact .rss i {
+  color: orange;
+}
+
+#contact .rss i:hover {
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#contact .google i {
+  color: red;
+}
+
+#contact .google i:hover {
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#site-end {
+  height: 70px;
+}
+
+#site-end p {
+  text-align: center;
+  padding-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */
